@@ -29,6 +29,6 @@ jobs:
 
     steps:
       - name: Deploy to staging
-        # Add your deployment script here (e.g., deploy to a staging server)
+        # Add your deployment script here (e.g., deploy to a staging server
         run: |
           ssh user@staging-server 'cd /path/to/app && git pull'
